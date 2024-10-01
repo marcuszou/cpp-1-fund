@@ -1,0 +1,3 @@
+/home/zenusr/projects/cpp-1-fund/build/CMakeFiles/hellow.dir
+/home/zenusr/projects/cpp-1-fund/build/CMakeFiles/edit_cache.dir
+/home/zenusr/projects/cpp-1-fund/build/CMakeFiles/rebuild_cache.dir
