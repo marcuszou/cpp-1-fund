@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/main5.dir/main1.cpp.o CMakeFiles/main5.dir/main2.cpp.o CMakeFiles/main5.dir/main3.cpp.o CMakeFiles/main5.dir/main4.cpp.o CMakeFiles/main5.dir/main5.cpp.o -o main5
