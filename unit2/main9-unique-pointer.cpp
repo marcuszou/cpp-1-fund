@@ -13,18 +13,17 @@ using namespace std;
  */
 
 int main() {
-	cout << "Smart pointers: shared pointer" << endl << endl;
+	cout << "Smart pointers: unique pointer" << endl << endl;
     // Format: class<dataType> objName(new instance)
-    // shared_ptr<int> x(new int);
+    unique_ptr<int> x(new int);
     // Another way to make a unique pointer:
-    auto x = make_shared<int>();
-    *x = 10;
+    auto y = make_unique<int>();
+    auto numbers = make_unique<int[]>(10);
 
-    // Assign ptr x to ptr y:
-    shared_ptr<int> y(x);
-    if (x == y)
-        cout << "Equal" << endl;
-    cout << *y << endl;
+    *x = 10;
+    *y = 20;
+    numbers[0] = 300;
+    cout << *x <<endl << *y << endl << numbers[0];
 
     // No need to delete the pointer since its smart pointer.
 
