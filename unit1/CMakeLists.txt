@@ -1,6 +1,11 @@
-cmake_minimum_required(VERSION 3.28)
-project(hellow)
+cmake_minimum_required(VERSION 3.25)
 
-set(CMAKE_CXX_STANDARD 20)
+project(main4)
 
-add_executable(hellow main.cpp)
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(${PROJECT_NAME} main1.cpp
+        main2.cpp
+        main3.cpp
+        main4.cpp
+        main5.cpp)
