@@ -1,3 +1,0 @@
-/home/zenusr/projects/cpp-mosh-2-int/unit1/cmake-build-debug/CMakeFiles/main.dir
-/home/zenusr/projects/cpp-mosh-2-int/unit1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/zenusr/projects/cpp-mosh-2-int/unit1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
