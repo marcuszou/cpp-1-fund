@@ -1,14 +1,8 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
-// Strongly typed enum: - enum class ...
-enum class Action {
-    List = 1,
-    Add,
-    Update
-};
-
-enum class Operation {
+enum Action {
     List = 1,
     Add,
     Update
@@ -25,7 +19,7 @@ int main() {
     int input;
     cin >> input;
 
-    if (input == static_cast<int>(Action::List)) {
+    if (input == Action::List) {
         cout << "List invoices";
     }
 
