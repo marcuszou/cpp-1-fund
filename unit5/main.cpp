@@ -1,7 +1,17 @@
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
-int main() {
-	cout << "Hello World" << endl;
+/*
+ * - FILE STREAM CLASSES
+ *   -- ifstream - Input File Stream :- reading
+ *   -- ofstream - Output File Stream :- writing
+ *   -- fstream - Input and Output file streams :- reading and writing
+ */
+
+int main(){
+	int x = 20;
+
+	return 0;
 }
